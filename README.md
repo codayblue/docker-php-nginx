@@ -15,13 +15,6 @@ You can also extend this image and add extensions and configuration for your nee
 - Fork repo and make a PR with changes. Include issue number in description. 
 - Put codayblue as a reviewer for the PR
 
-## Todo
-
-- [x] Multiarch ready dockerfile
-- [ ] CI/CD pipeline (Github Actions)
-- [ ] Setup quay.io repos to be public
-- [ ] Add better documentation
-
 # Warning
 
 Verify php settings are what you want before sending an image to production. So many people do different things I could not bake in a production ready config. This image is ready for small home apps and local boxes. If you use the config in production I would just like to remind you that the LICENSE file does mention you get no warrenty and you use this software at your own risk.  
