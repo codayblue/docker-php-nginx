@@ -18,7 +18,7 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v1
         with:
           images: codayblue/docker-php-nginx
-          tag-match: v(*.)
+          tag-match: v(.*)
           tag-match-group: 1
       -
         name: Set up QEMU
