@@ -7,9 +7,17 @@ This docker file build out uses s6 overlay from just-containers to bring Nginx a
 1. Clone this repo (Will change once CI pipeline is built out)
 2. Copy or volume your code to `/var/www/html/public` with an `index.php` or if your using a framework with a public dir copy it to `/var/www/html` but make sure it has an `index.php` in the public dir. All this can be changed in `/etc/nginx/conf.d/default.conf`, php settings can be changed in the many .ini files.
 
+You can also extend this image and add extensions and configuration for your needs.
+
+## Contributing
+
+- Make an issue (optional)
+- Fork repo and make a PR with changes. Include issue number in description. 
+- Put codayblue as a reviewer for the PR
+
 ## Todo
 
-- [ ] Multiarch ready dockerfile
+- [x] Multiarch ready dockerfile
 - [ ] CI/CD pipeline (Github Actions)
 - [ ] Setup quay.io repos to be public
 - [ ] Add better documentation
